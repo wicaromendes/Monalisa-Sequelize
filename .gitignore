@@ -1,10 +1,31 @@
-# For projects using Nanoc (http://nanoc.ws/)
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
 
-# Default location for output (needs to match output_dir's value found in nanoc.yaml)
-output/
+# Diretórios
+/node_modules/
+/dist/
+/build/
 
-# Temporary file directory
-tmp/nanoc/
+# Arquivos de log
+*.log
 
-# Crash Log
-crash.log
+# Arquivos temporários
+*.tmp
+
+# Chaves de API e arquivos sensíveis
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependências e arquivos de construção
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Outros arquivos e diretórios específicos ao seu projeto
