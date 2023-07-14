@@ -1,4 +1,4 @@
-import { Dialect, Options } from "sequelize";
+import { Dialect, Options, Model, DataTypes  } from "sequelize";
 
 interface SequelizeOptions extends Options {}
 
@@ -9,4 +9,4 @@ interface DatabaseConfig {
   production: SequelizeOptions;
 }
 
-export { DatabaseConfig, Dialect };
+export { DatabaseConfig, Dialect, Options, Model, DataTypes };

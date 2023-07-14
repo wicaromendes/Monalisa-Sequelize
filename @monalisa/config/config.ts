@@ -1,4 +1,4 @@
-import { DatabaseConfig, Dialect } from "../interfaces/DatabaseConfig";
+import { DatabaseConfig, Dialect } from "../sequelize";
 
 const databaseConfig: DatabaseConfig = {
   development: {
